@@ -11,7 +11,7 @@ return {
       -- Set a formatter
       null_ls.builtins.formatting.stylua,
       null_ls.builtins.formatting.eslint_d,
-      null_ls.builtins.formatting.prettier_d,
+      null_ls.builtins.formatting.prettier_d_slim,
       -- diagnostics
       null_ls.builtins.diagnostics.eslint_d,
       -- code actions
