@@ -10,8 +10,9 @@ return {
     config.sources = {
       -- Set a formatter
       null_ls.builtins.formatting.stylua,
-      null_ls.builtins.formatting.eslint_d,
+      -- null-ls.builtins.formatting.prettier_eslint,
       null_ls.builtins.formatting.prettier_d_slim,
+      null_ls.builtins.formatting.eslint_d,
       -- diagnostics
       null_ls.builtins.diagnostics.eslint_d,
       -- code actions
